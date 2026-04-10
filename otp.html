@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OTP Verification</title>
+<style>
+body {font-family: Arial; background:#f2f5f8; display:flex; justify-content:center; align-items:center; height:100vh;}
+.box {background:white; padding:30px; border-radius:10px; text-align:center;}
+input {padding:10px; width:200px;}
+button {margin-top:15px; background:#003366; color:white; padding:10px;}
+</style>
+</head>
+
+<body>
+<div class="box">
+<h3>Enter OTP</h3>
+<p>Code sent to your device</p>
+<input placeholder="123456">
+<br>
+<button onclick="next()">Verify</button>
+</div>
+
+<script>
+function next(){ window.location="loading.html"; }
+</script>
+</body>
+</html>
