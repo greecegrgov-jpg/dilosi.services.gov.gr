@@ -2,12 +2,8 @@ const applications = {
   "GOV123456": {
     name: "Muhammad Abdullah",
     status: "Approved",
-    date: "12 April 2026"
-  },
-  "GOV999999": {
-    name: "Test User",
-    status: "Pending",
-    date: "10 April 2026"
+    date: "12 April 2026",
+    id: "VRF-2026-99821"
   }
 };
 
@@ -17,9 +13,13 @@ function checkStatus() {
 
   if (applications[id]) {
     result.innerHTML = `
-      <p><strong>Name:</strong> ${applications[id].name}</p>
-      <p><strong>Status:</strong> ${applications[id].status}</p>
-      <p><strong>Date:</strong> ${applications[id].date}</p>
+      <div class="card">
+        <h3>Application Details</h3>
+        <p><strong>Name:</strong> ${applications[id].name}</p>
+        <p><strong>Status:</strong> ${applications[id].status}</p>
+        <p><strong>Date:</strong> ${applications[id].date}</p>
+        <p><strong>Verification ID:</strong> ${applications[id].id}</p>
+      </div>
     `;
   } else {
     result.innerHTML = `<p style="color:red;">Invalid Application ID</p>`;
@@ -31,6 +31,6 @@ function startVerification() {
   loader.style.display = "block";
 
   setTimeout(() => {
-    loader.innerHTML = "✅ Verification Complete";
+    loader.innerHTML = "✅ Verification Completed Successfully";
   }, 3000);
 }
