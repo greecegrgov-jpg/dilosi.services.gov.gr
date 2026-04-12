@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Verification Result</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">
+    <img src="images/logo.svg">
+    <h1>Digital Government Portal</h1>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+  <h2>Verification Details</h2>
+
+  <div id="dataBox"></div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="data.js"></script>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+const box = document.getElementById("dataBox");
+
+if (users[id]) {
+  box.innerHTML = `
+    <div class="card">
+      <h3>Verified Record</h3>
+      <p><strong>Name:</strong> ${users[id].name}</p>
+      <p><strong>Father Name:</strong> ${users[id].father}</p>
+      <p><strong>ID:</strong> ${users[id].id}</p>
+
+      <br>
+      <a href="${users[id].certificate}" class="btn">
+        Download Certificate
+      </a>
+    </div>
+  `;
+} else {
+  box.innerHTML = `<p style="color:red;">❌ Invalid Record</p>`;
+}
+</script>
+
+</body>
+</html>
