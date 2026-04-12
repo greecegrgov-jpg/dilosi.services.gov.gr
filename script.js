@@ -35,7 +35,14 @@ function startVerification() {
   }, 3000);
 }
 function goSearch() {
-  const id = document.getElementById("searchInput").value;
+  const input = document.getElementById("searchInput");
+
+  if (!input) {
+    alert("Input not found");
+    return;
+  }
+
+  const id = input.value.trim().toUpperCase();
 
   if (!id) {
     alert("Enter ID first");
@@ -44,4 +51,3 @@ function goSearch() {
 
   window.location.href = "view.html?id=" + id;
 }
-alert("script loaded");
