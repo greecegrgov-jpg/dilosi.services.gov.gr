@@ -130,24 +130,45 @@ if (user) {
       <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${link}">
     </div>
 
+   <script src="data.js"></script>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const id = params.get("id");
+
+const user = users[id];
+
+const dataBox = document.getElementById("dataBox");
+const qrBox = document.getElementById("qrBox");
+
+if (user) {
+
+  // LEFT SIDE
+  dataBox.innerHTML = `
+    <div class="small-title">Signatory's Details</div>
+
+    <div class="row"><span class="label">Name</span><span class="value">${user.name}</span></div>
+    <div class="row"><span class="label">Father's Name</span><span class="value">${user.father}</span></div>
+    <div class="row"><span class="label">ID</span><span class="value">${user.id}</span></div>
+  `;
+
+  // 🔥 UNIQUE LINK PER USER
+  const baseURL = window.location.origin + window.location.pathname;
+  const uniqueLink = baseURL + "?id=" + user.id;
+
+  qrBox.innerHTML = `
+    <div class="qrbox">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${uniqueLink}">
+    </div>
+
     <div class="small-title">Verification code</div>
-    <p>${user.verificationCode || user.id}</p>
+    <p>${user.id}-VERIFY</p>
 
     <div class="small-title">Status</div>
     <p>${user.status || "The document was issued"}</p>
 
-    <div class="small-title">Standard</div>
-    <p>${user.standard || "GNISIO-YP0GRAFIS"}</p>
-
-    <div class="small-title">Document issue date gov.gr</div>
-    <p>${user.issueDate || "-"}</p>
-
     <div class="small-title">Save to your archive</div>
-    <p>Save the PDF file to your device.</p>
-
-    <a href="${user.certificate}" download class="storage-btn">
-      Storage
-    </a>
+    <a href="${user.certificate}" download class="storage-btn">Storage</a>
   `;
 
 } else {
