@@ -4,6 +4,7 @@ body {
   background: #f4f6f9;
 }
 
+/* NAVBAR */
 .navbar {
   background: #0b3c5d;
   color: white;
@@ -13,9 +14,21 @@ body {
   align-items: center;
 }
 
-.navbar h1 {
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 42px;
+  margin-right: 12px;
+}
+
+.logo h1 {
   font-size: 18px;
   margin: 0;
+  color: white;
 }
 
 .navbar a {
@@ -25,6 +38,7 @@ body {
   font-size: 14px;
 }
 
+/* HERO */
 .hero {
   background: white;
   padding: 40px;
@@ -32,18 +46,21 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+/* CONTAINER */
 .container {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
 }
 
+/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
 }
 
+/* CARD */
 .card {
   background: white;
   padding: 20px;
@@ -51,14 +68,11 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.card h3 {
-  margin-top: 0;
-}
-
 .card p {
   color: #555;
 }
 
+/* STATUS */
 .status {
   display: inline-block;
   padding: 5px 10px;
@@ -66,9 +80,9 @@ body {
   color: #2e7d32;
   border-radius: 6px;
   font-size: 12px;
-  margin-top: 10px;
 }
 
+/* BUTTON */
 .btn {
   display: inline-block;
   margin-top: 15px;
@@ -77,7 +91,6 @@ body {
   color: white;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 14px;
   border: none;
   cursor: pointer;
 }
@@ -86,6 +99,15 @@ body {
   background: #092c45;
 }
 
+/* INPUT */
+input {
+  padding: 10px;
+  width: 260px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* QR */
 .qr {
   text-align: center;
   margin-top: 40px;
@@ -95,17 +117,9 @@ body {
   width: 120px;
 }
 
+/* FOOTER */
 .footer {
   text-align: center;
   padding: 20px;
   color: #777;
-  margin-top: 40px;
-}
-
-/* EXTRA INPUT STYLE */
-input {
-  padding: 10px;
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
 }
