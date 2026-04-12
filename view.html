@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="style.css">
 
 <style>
-/* GOV STYLE PAGE */
 .page {
   max-width: 1100px;
   margin: auto;
@@ -23,13 +22,8 @@
   justify-content: space-between;
 }
 
-.left {
-  width: 60%;
-}
-
-.right {
-  width: 30%;
-}
+.left { width: 60%; }
+.right { width: 30%; }
 
 .row {
   display: flex;
@@ -39,14 +33,8 @@
   font-size: 14px;
 }
 
-.label {
-  font-weight: 600;
-  color: #333;
-}
-
-.value {
-  color: #555;
-}
+.label { font-weight: 600; color: #333; }
+.value { color: #555; }
 
 .qrbox {
   text-align: center;
@@ -67,7 +55,6 @@
   background: #1e7d4f;
   color: white;
   padding: 10px 20px;
-  border: none;
   border-radius: 4px;
   margin-top: 10px;
   display: inline-block;
@@ -96,17 +83,17 @@
 
   <div class="section">
 
-    <!-- LEFT SIDE -->
+    <!-- LEFT -->
     <div class="left" id="dataBox"></div>
 
-    <!-- RIGHT SIDE -->
+    <!-- RIGHT -->
     <div class="right" id="qrBox"></div>
 
   </div>
 
 </div>
 
-<!-- SCRIPTS -->
+<!-- DATA -->
 <script src="data.js"></script>
 
 <script>
@@ -120,21 +107,23 @@ const qrBox = document.getElementById("qrBox");
 
 if (user) {
 
-  // LEFT SIDE DATA
+  // LEFT SIDE (DYNAMIC DATA)
   dataBox.innerHTML = `
     <div class="small-title">Signatory's Details</div>
 
-    <div class="row"><span class="label">Name</span><span class="value">${user.name}</span></div>
-    <div class="row"><span class="label">Father's Name</span><span class="value">${user.father}</span></div>
-    <div class="row"><span class="label">ID</span><span class="value">${user.id}</span></div>
-    <div class="row"><span class="label">Date of Birth</span><span class="value">14/07/1982</span></div>
+    <div class="row"><span class="label">Name</span><span class="value">${user.name || "-"}</span></div>
+    <div class="row"><span class="label">Surname</span><span class="value">${user.surname || "-"}</span></div>
+    <div class="row"><span class="label">Father's Name</span><span class="value">${user.father || "-"}</span></div>
+    <div class="row"><span class="label">Mother's Name</span><span class="value">${user.mother || "-"}</span></div>
+    <div class="row"><span class="label">Tax Number</span><span class="value">${user.tax || "-"}</span></div>
+    <div class="row"><span class="label">Date of Birth</span><span class="value">${user.dob || "-"}</span></div>
 
     <div class="small-title">Signature details</div>
-    <div class="row"><span class="label">Date of Signature</span><span class="value">21/09/2025 14:38:50</span></div>
+    <div class="row"><span class="label">Date of Signature</span><span class="value">${user.signatureDate || "-"}</span></div>
   `;
 
-  // QR LINK
-  const link = window.location.origin + "/view.html?id=" + user.id;
+  // SAFE QR LINK (works everywhere)
+  const link = window.location.href;
 
   qrBox.innerHTML = `
     <div class="qrbox">
@@ -142,23 +131,23 @@ if (user) {
     </div>
 
     <div class="small-title">Verification code</div>
-    <p>${user.id}-VERIFY</p>
+    <p>${user.verificationCode || user.id}</p>
 
     <div class="small-title">Status</div>
-    <p>The document was issued</p>
+    <p>${user.status || "The document was issued"}</p>
 
     <div class="small-title">Standard</div>
-    <p>GNISIO-YP0GRAFIS</p>
+    <p>${user.standard || "GNISIO-YP0GRAFIS"}</p>
 
     <div class="small-title">Document issue date gov.gr</div>
-    <p>21/09/2025 16:38:50</p>
+    <p>${user.issueDate || "-"}</p>
 
     <div class="small-title">Save to your archive</div>
     <p>Save the PDF file to your device.</p>
 
     <a href="${user.certificate}" download class="storage-btn">
-  Storage
-</a>
+      Storage
+    </a>
   `;
 
 } else {
