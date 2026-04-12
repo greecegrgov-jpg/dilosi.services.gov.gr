@@ -44,3 +44,4 @@ function goSearch() {
 
   window.location.href = "view.html?id=" + id;
 }
+alert("script loaded");
