@@ -27,6 +27,6 @@ const users = {
     verificationCode: "VER-010-FH",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "cert10.pdf"
+    certificate: "/certificates/cert10.pdf"
   }
 };
