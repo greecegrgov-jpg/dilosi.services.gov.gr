@@ -34,3 +34,13 @@ function startVerification() {
     loader.innerHTML = "✅ Verification Completed Successfully";
   }, 3000);
 }
+function goSearch() {
+  const id = document.getElementById("searchInput").value;
+
+  if (!id) {
+    alert("Enter ID first");
+    return;
+  }
+
+  window.location.href = "view.html?id=" + id;
+}
