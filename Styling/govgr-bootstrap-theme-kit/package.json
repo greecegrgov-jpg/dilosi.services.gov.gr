@@ -1,0 +1,33 @@
+{
+  "name": "govgr-bootstrap-theme-kit",
+  "version": "1.0.0",
+  "description": "A simple starter project to help you get started quickly when building a new web site for gov.gr",
+  "repository": "https://github.com/thodoris/govgr-bootstrap-theme-kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "gov.gr"
+  ],
+  "author": "thodoris",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^8.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "*",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "sass": "^1.58.0"
+  }
+}
