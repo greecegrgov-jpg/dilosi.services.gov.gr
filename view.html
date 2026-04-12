@@ -153,7 +153,8 @@ if (user) {
 }
 
 // SMART DOWNLOAD FUNCTION
-function downloadFile(file) {
+console.log("Downloading:", file);
+  function downloadFile(file) {
   fetch(file, { method: 'HEAD' })
     .then(response => {
       if (response.ok) {
