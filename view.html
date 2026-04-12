@@ -59,6 +59,8 @@
   margin-top: 10px;
   display: inline-block;
   text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 </style>
 
@@ -92,6 +94,7 @@
 <script src="data.js"></script>
 
 <script>
+// GET ID FROM URL
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
@@ -115,9 +118,10 @@ if (user) {
 
     <div class="small-title">Signature details</div>
     <div class="row"><span class="label">Date of Signature</span><span class="value">${user.signatureDate || "-"}</span></div>
+    <div class="row"><span class="label">Issue Date</span><span class="value">${user.issueDate || "-"}</span></div>
   `;
 
-  // UNIQUE LINK FOR QR
+  // UNIQUE QR LINK
   const uniqueLink = window.location.origin + window.location.pathname + "?id=" + user.id;
 
   // RIGHT SIDE
@@ -139,11 +143,28 @@ if (user) {
     <p>${user.issueDate || "-"}</p>
 
     <div class="small-title">Save to your archive</div>
-    <a href="${user.certificate}" download class="storage-btn">Storage</a>
+    <button class="storage-btn" onclick="downloadFile('${user.certificate}')">
+      Storage
+    </button>
   `;
 
 } else {
   dataBox.innerHTML = `<p style="color:red;">Invalid Record</p>`;
+}
+
+// SMART DOWNLOAD FUNCTION
+function downloadFile(file) {
+  fetch(file, { method: 'HEAD' })
+    .then(response => {
+      if (response.ok) {
+        window.location.href = file;
+      } else {
+        alert("❌ File not found for this user");
+      }
+    })
+    .catch(() => {
+      alert("❌ File not found for this user");
+    });
 }
 </script>
 
