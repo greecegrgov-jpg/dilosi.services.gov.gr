@@ -10,18 +10,26 @@ body {
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 18px;
+  margin: 0;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
   margin-left: 15px;
+  font-size: 14px;
 }
 
 .hero {
   background: white;
   padding: 40px;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .container {
@@ -43,12 +51,22 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  color: #555;
+}
+
 .status {
   display: inline-block;
   padding: 5px 10px;
   background: #e6f4ea;
   color: #2e7d32;
   border-radius: 6px;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 .btn {
@@ -59,6 +77,7 @@ body {
   color: white;
   border-radius: 8px;
   text-decoration: none;
+  font-size: 14px;
   border: none;
   cursor: pointer;
 }
@@ -72,8 +91,21 @@ body {
   margin-top: 40px;
 }
 
+.qr img {
+  width: 120px;
+}
+
 .footer {
   text-align: center;
   padding: 20px;
   color: #777;
+  margin-top: 40px;
+}
+
+/* EXTRA INPUT STYLE */
+input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
