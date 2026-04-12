@@ -12,7 +12,7 @@ const users = {
     verificationCode: "Hmp8KarPrCVf16DmL02HQ",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "cert1.pdf"
+    certificate: "certificates/cert1.pdf"
   },
 
   "GOV002": {
@@ -28,6 +28,6 @@ const users = {
     verificationCode: "XyZ123VerifyCode002",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "cert2.pdf"
+    certificate: "certificates/cert1.pdf"
   }
 };
