@@ -43,6 +43,6 @@ const users = {
     verificationCode: "VER-010-FH010745824141",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "/certificates/cert010745824141.pdf"
+    certificate: "certificates/cert010745824141.pdf"
   }
 };
