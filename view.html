@@ -98,7 +98,8 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 const user = users[id];
-
+console.log("ID:", id);
+console.log("USER:", user);
 const dataBox = document.getElementById("dataBox");
 const qrBox = document.getElementById("qrBox");
 
