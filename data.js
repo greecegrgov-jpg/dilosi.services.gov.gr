@@ -30,6 +30,7 @@ const users = {
     certificate: "/certificates/cert10.pdf"
   }
 };
+{
 "GOV010745824141": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
