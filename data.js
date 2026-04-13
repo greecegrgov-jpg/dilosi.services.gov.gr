@@ -14,6 +14,7 @@ const users = {
     standard: "GNISIO-YP0GRAFIS",
     certificate: "cert1.pdf"
   },
+
   "GOV010": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
@@ -27,11 +28,10 @@ const users = {
     verificationCode: "VER-010-FH",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "/certificates/cert10.pdf"
-  }
-};
-{
-"GOV010745824141":{
+    certificate: "certificates/cert10.pdf"
+  },
+
+  "GOV010745824141": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
     father: "ДИМИТРИУ Иоаннидис",
