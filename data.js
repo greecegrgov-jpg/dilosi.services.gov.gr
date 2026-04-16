@@ -108,6 +108,6 @@ const users = {
     verificationCode: "VER-010-9214JUHUJG6TGRKI8",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "certificates/cert92149214JUHUJG6TGRKI8.pdf"
+    certificate: "certificates/cert9214JUHUJG6TGRKI8.pdf"
 }
 };
