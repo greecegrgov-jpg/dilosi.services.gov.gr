@@ -77,5 +77,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
     certificate: "certificates/cert9214JUHY6T6T6YHUJIO9.pdf"
+},
+    
+   "GOV9214NDJFUYH6HFYUDFJK49": {
+    name: "ФИЛЛИПС",
+    surname: "ДИМИТРИУ",
+    father: "ДИМИТРИУ Иоаннидис",
+    mother: "EVGENIA Иоаннидис",
+    id: "9214NDJFUYH6HFYUDFJK49",
+    dob: "22/02/1985",
+    tax: "100362540",
+    signatureDate: "14/04/2026 11:14:22",
+    issueDate: "14/04/2026 11:44:56",
+    verificationCode: "VER-010-9214NDJFUYH6bfhtgu7",
+    status: "The document was issued",
+    standard: "GNISIO-YP0GRAFIS",
+    certificate: "certificates/cert9214NDJFUYH6HFYUDFJK49.pdf"
 }
 };
