@@ -63,7 +63,7 @@ const users = {
     certificate: "certificates/cert9214HYGTY236DIGFIH.pdf"
 },
 
-  "GOV010745824141": {
+  "GOVKIJUH567HG7hy78jhylp9k": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
     father: "ДИМИТРИУ Иоаннидис",
@@ -76,6 +76,6 @@ const users = {
     verificationCode: "VER-010-FH010745824141",
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
-    certificate: "certificates/cert010745824141.pdf"
+    certificate: "certificates/certKIJUH567HG7hy78jhylp9k.pdf"
   }
 };
