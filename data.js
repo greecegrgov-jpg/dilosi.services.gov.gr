@@ -111,7 +111,7 @@ const users = {
     certificate: "certificates/cert9214JUHUJG6TGRKI8.pdf"
 },
       
-   "GOV9214NGFHJU812DCHY19": {
+  "GOV9214NGFHJU812DCHY19": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
     father: "ДИМИТРИУ Иоаннидис",
@@ -121,9 +121,9 @@ const users = {
     tax: "100362540",
     signatureDate: "14/04/2026 12:23:31",
     issueDate: "14/04/2026 13:27:44",
-    verificationCode: "VER-010-GOV9214NGFHJU812DCHY19",
+    verificationCode: "VER-GOV9214NGFHJU812DCHY19",
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812DCHY19.pdf"
-}
+  }
 };
