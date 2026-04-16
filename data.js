@@ -61,8 +61,8 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YP0GRAFIS",
     certificate: "certificates/cert9214HYGTY236DIGFIH.pdf"
-}
-   
+},
+      
     "GOV9214HYGTY236DIG2jik": {
     name: "ФИЛЛИПС",
     surname: "ДИМИТРИУ",
