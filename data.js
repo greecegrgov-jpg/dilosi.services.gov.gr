@@ -236,6 +236,6 @@ const users = {
     verificationCode: "GOVΑΡΠΡΩΤΑΜ448751202623-897/70086",
     status: "The document was issued",
     standard: "ΑΡΠΡΩΤ",
-    certificate: "certificates/certΑΡΠΡΩΤΑΜ448751202623-897/70086.pdf"
+    certificate: "certificates/certΑΡΠΡΩΤΑΜ448751202623-89770086.pdf"
   }
 };
