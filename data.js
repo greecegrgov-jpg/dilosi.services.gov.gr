@@ -223,17 +223,17 @@ const users = {
     certificate: "certificates/cert9214NGFHJU812WWP269.pdf"
   },
   
-  "GOVΑΡΠΡΩΤΑΜ448751202623-897/70086": {
+  "GOVΑΡΠΡΩΤΑΜ448751202623-89770086": {
     name: "ΠΑΤΡΙΤΣΙΑ",
     surname: "ΕΡΙΚ",
     father: "ΘΕΩΡΗΤΗΣ ΕΡΙΚ",
     mother: "ΑΝΤΖΕΛΙΝΑ ΚΡΟΥΚ",
-    id: "GOVΑΡΠΡΩΤΑΜ448751202623-897/70086",
+    id: "GOVΑΡΠΡΩΤΑΜ448751202623-89770086",
     dob: "12/01/1992",
     tax: "011254895",
     signatureDate: "01/04/2026 09:21:00",
     issueDate: "01/04/2026 09:59:46",
-    verificationCode: "GOVΑΡΠΡΩΤΑΜ448751202623-897/70086",
+    verificationCode: "GOVΑΡΠΡΩΤΑΜ448751202623-89770086",
     status: "The document was issued",
     standard: "ΑΡΠΡΩΤ",
     certificate: "certificates/certΑΡΠΡΩΤΑΜ448751202623-89770086.pdf"
