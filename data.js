@@ -253,5 +253,21 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWP275.pdf"
+  },
+                
+  "GOV9214NGFHJU812WWP277": {
+    name: "ΑΝΝΑ",
+    surname: "ΚΑΛΑΙΤΖΑΚΗ",
+    father: "ΝΙΚΟΛΑΟΣ",
+    mother: "ΑΓΓΕΛΙΚΗ",
+    id: "GOV9214NGFHJU812WWP277",
+    dob: "04/08/1988",
+    tax: "063269700",
+    signatureDate: "04/05/2026 14:35:47",
+    issueDate: "04/05/2026 15:04:07",
+    verificationCode: "VER-GOV9214NGFHJU812WWP277",
+    status: "The document was issued",
+    standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
+    certificate: "certificates/cert9214NGFHJU812WWP277.pdf"
   }
 };
