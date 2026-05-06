@@ -269,5 +269,37 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWP277.pdf"
+  },
+        
+  "GOV9214NGFHJU812WW305": {
+    name: "ФИЛЛИПС",
+    surname: "ДИМИТРИУ",
+    father: "ДИМИТРИУ Иоаннидис",
+    mother: "EVGENIA Иоаннидис",
+    id: "GOV9214NGFHJU812WW305",
+    dob: "22/02/1985",
+    tax: "100362540",
+    signatureDate: "05/05/2026 09:23:31",
+    issueDate: "05/05/2026 10:05:30",
+    verificationCode: "VER-GOV9214NGFHJU812WW305",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WW305.pdf"
+  },
+          
+  "GOV9214NGFHJU812WW306": {
+    name: "ФИЛЛИПС",
+    surname: "ДИМИТРИУ",
+    father: "ДИМИТРИУ Иоаннидис",
+    mother: "EVGENIA Иоаннидис",
+    id: "GOV9214NGFHJU812WW306",
+    dob: "22/02/1985",
+    tax: "100362540",
+    signatureDate: "05/05/2026 09:23:31",
+    issueDate: "05/05/2026 10:05:30",
+    verificationCode: "VER-GOV9214NGFHJU812WW306",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WW306.pdf"
   }
 };
