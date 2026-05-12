@@ -605,5 +605,21 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWP345.pdf"
-  }
+  },
+                          
+  "GOV9214NGFHJU812WWP347": {
+    name: "ΓΕΩΡΓΙΟΣ",
+    surname: "ΤΣΑΚΟΠΙΑΚΟΣ",
+    father: "ΒΑΣΙΛΕΙΟ",
+    mother: "ΕΛΕΝΗ",
+    id: "GOV9214NGFHJU812WWP347",
+    dob: "22/11/1974",
+    tax: "058784738",
+    signatureDate: "11/05/2026 12:10:20",
+    issueDate: "11/05/2026 12:35:40",
+    verificationCode: "VER-GOV9214NGFHJU812WWP347",
+    status: "The document was issued",
+    standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
+    certificate: "certificates/cert9214NGFHJU812WWP347.pdf"
+  },
 };
