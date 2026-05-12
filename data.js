@@ -621,5 +621,5 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWP347.pdf"
-  },
+  }
 };
