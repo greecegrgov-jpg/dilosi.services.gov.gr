@@ -808,7 +808,7 @@ const users = {
     dob: "22/11/1974",
     tax: "058784738",
     signatureDate: "15/05/2026 13:10:11",
-    issueDate: "15/05/2026 12:35:17",
+    issueDate: "15/05/2026 13:35:17",
     verificationCode: "VER-GOV9214NGFHJU812WWP371",
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
