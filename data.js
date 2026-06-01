@@ -873,7 +873,7 @@ const users = {
     tax: "058784738",
     signatureDate: "29/05/2026 13:21:55",
     issueDate: "29/05/2026 13:45:24",
-    verificationCode: "VER-GOV9214NGFHJU812WWP377",
+    verificationCode: "VER-GOV9214NGFHJU812WWP379",
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWP377.pdf"
