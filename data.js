@@ -1453,5 +1453,5 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK119.pdf"
-  },
+  }
 };
