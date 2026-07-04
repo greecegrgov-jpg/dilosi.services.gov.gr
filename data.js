@@ -1437,5 +1437,20 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWPYS108.pdf"
+  },
+                              
+  "GOV9214NGFHJU812WWKUW199": {
+    name: "ΦΩΤΙΟΣ",
+    surname: "ΚΟΛΛΙΑΣ",
+    father: "ΔΙΟΝΥΣΙΟΣ",
+    mother: "ΑΝΑΣΤΑΣΙΑ",
+    id: "GOV9214NGFHJU812WWKUW199",
+    dob: "13/11/1977",
+    tax: "109911257",
+    signatureDate: "23/06/2026 11:28:11",
+    issueDate: "23/06/2026 11:59:59",
+    verificationCode: "VER-GOV9214NGFHJU812WWKUW199",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",cert9214NGFHJU812WWKUW199
   }
 };
