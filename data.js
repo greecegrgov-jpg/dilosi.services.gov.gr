@@ -1438,7 +1438,7 @@ const users = {
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWPYS108.pdf"
   },
-                            
+                              
   "GOV9214NGFHJU812WWHJK119": {
     name: "ΣΤΙΦΦΑΝ",
     surname: "ΡΟΥΪΤΣΑΡΝΤ",
@@ -1453,5 +1453,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK119.pdf"
+  },
+                              
+  "GOV9214NGFHJU812WWHJK120": {
+    name: "ΣΤΙΦΦΑΝ",
+    surname: "ΡΟΥΪΤΣΑΡΝΤ",
+    father: "ΡΟΥΪΤΣΑΡΝΤ",
+    mother: "Ιζαμπέλα",
+    id: "GOV9214NGFHJU812WWHJK120",
+    dob: "29/07/1990",
+    tax: "801362742",
+    signatureDate: "21/05/2026 21:34:55",
+    issueDate: "21/05/2026 22:11:14",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK120",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK120.pdf"
   }
 };
