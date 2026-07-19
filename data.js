@@ -1823,7 +1823,7 @@ const users = {
     certificate: "certificates/cert9214NGFHJU812WWHJK238.pdf"
   },
                
-  "GOV9214NGFHJU812WWHJK239": {
+"GOV9214NGFHJU812WWHJK239": {
     name: "ΠΑΤΡΙΤΣΙΑ",
     surname: "ΕΡΙΚ",
     father: "ΘΕΩΡΗΤΗΣ ΕΡΙΚ",
@@ -1837,5 +1837,5 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK239.pdf"
-  }
+}
 };
