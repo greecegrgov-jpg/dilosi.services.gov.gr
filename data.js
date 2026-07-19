@@ -1821,5 +1821,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK247.pdf"
+  },
+                  
+  "GOV9214NGFHJU812WWHJK248": {
+    name: "ΑΝΝΑ",
+    surname: "ΚΑΛΑΙΤΖΑΚΗ",
+    father: "ΝΙΚΟΛΑΟΣ",
+    mother: "ΑΓΓΕΛΙΚΗ",
+    id: "GOV9214NGFHJU812WWHJK248",
+    dob: "04/08/1988",
+    tax: "063269700",
+    signatureDate: "17/07/2026 22:14:25",
+    issueDate: "17/07/2026 22:49:33",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK248",
+    status: "The document was issued",
+    standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
+    certificate: "certificates/cert9214NGFHJU812WWHJK248.pdf"
   }
 };
