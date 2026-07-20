@@ -1837,5 +1837,21 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWHJK248.pdf"
+  },
+                    
+  "GOV9214NGFHJU812WWHJK260": {
+    name: "ΔΗΜΗΤΡΙΟΣ",
+    surname: "ΓΙΑΝΝΟΠΟΥΛΟΣ",
+    father: "ΝΙΚΟΛΑΟΣ",
+    mother: "ΓΕΩΡΓΙΑ",
+    id: "GOV9214NGFHJU812WWHJK260",
+    dob: "10/02/1981",
+    tax: "109902469",
+    signatureDate: "20/07/2026 14:14:25",
+    issueDate: "20/07/2026 14:49:33",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK260",
+    status: "The document was issued",
+    standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
+    certificate: "certificates/cert9214NGFHJU812WWHJK260.pdf"
   }
 };
