@@ -1839,19 +1839,19 @@ const users = {
     certificate: "certificates/cert9214NGFHJU812WWHJK248.pdf"
   },
                     
-  "GOV9214NGFHJU812WWHJK248": {
-    name: "ΑΝΝΑ",
-    surname: "ΚΑΛΑΙΤΖΑΚΗ",
-    father: "ΝΙΚΟΛΑΟΣ",
-    mother: "ΑΓΓΕΛΙΚΗ",
-    id: "GOV9214NGFHJU812WWHJK248",
-    dob: "04/08/1988",
-    tax: "063269700",
+  "GOV9214NGFHJU812WWHJK401": {
+    name: "SPYRIDON",
+    surname: "VERTOUDOS",
+    father: "GEORGE",
+    mother: "EUSEBIA",
+    id: "GOV9214NGFHJU812WWHJK401",
+    dob: "29/01/1972",
+    tax: "072629558",
     signatureDate: "17/07/2026 22:14:25",
     issueDate: "17/07/2026 22:49:33",
-    verificationCode: "VER-GOV9214NGFHJU812WWHJK248",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK401",
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
-    certificate: "certificates/cert9214NGFHJU812WWHJK248.pdf"
+    certificate: "certificates/cert9214NGFHJU812WWHJK401.pdf"
   }
 };
