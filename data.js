@@ -1917,5 +1917,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK404.pdf"
+  },
+                  
+  "GOV9214NGFHJU812WWHJK405": {
+    name: "ΒΑΣΙΛΕΙΟΣ",
+    surname: "ΜΠΑΚΑΚΗΣ",
+    father: "ΓΡΗΓΟΡΙΟΣ",
+    mother: "ΠΑΝΑΓΙΩΤΑ",
+    id: "GOV9214NGFHJU812WWHJK405",
+    dob: "02/06/1984",
+    tax: "301738500",
+    signatureDate: "29/07/2026 14:19:36",
+    issueDate: "29/07/2026 15:06:01",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK405",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK405.pdf"
   }
 };
