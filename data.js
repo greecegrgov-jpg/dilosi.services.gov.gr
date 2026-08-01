@@ -1933,5 +1933,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK405.pdf"
+  },
+              
+  "GOV9214NGFHJU812WWHJK406": {
+    name: "ΠΑΤΡΙΤΣΙΑ",
+    surname: "ΕΡΙΚ",
+    father: "ΘΕΩΡΗΤΗΣ ΕΡΙΚ",
+    mother: "ΑΝΤΖΕΛΙΝΑ ΚΡΟΥΚ",
+    id: "GOV9214NGFHJU812WWHJK406",
+    dob: "12/01/1992",
+    tax: "011254895",
+    signatureDate: "28/06/2026 14:25:14",
+    issueDate: "28/06/2026 14:59:07",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK406",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert214NGFHJU812WWHJK406.pdf"
   }
 };
