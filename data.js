@@ -1948,6 +1948,6 @@ const users = {
     verificationCode: "VER-GOV9214NGFHJU812WWHJK406",
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
-    certificate: "certificates/cert214NGFHJU812WWHJK406.pdf"
+    certificate: "certificates/cert9214NGFHJU812WWHJK406.pdf"
   }
 };
