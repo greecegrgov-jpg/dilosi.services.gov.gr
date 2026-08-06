@@ -1981,21 +1981,5 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK408.pdf"
-  },
-                    
-  "GOV9214NGFHJU812WWHJK409": {
-    name: "ΣΠΥΡΙΔΩΝ",
-    surname: "ΒΕΡΤΟΥΔΟΣ",
-    father: "ΓΕΩΡΓΙΟΣ",
-    mother: "ΕΥΣΕΒΙΑ",
-    id: "GOV9214NGFHJU812WWHJK409",
-    dob: "29/01/1972",
-    tax: "072629558",
-    signatureDate: "28/07/2026 09:27:28",
-    issueDate: "28/07/2026 12:00:09",
-    verificationCode: "VER-GOV9214NGFHJU812WWHJK409",
-    status: "The document was issued",
-    standard: "GNISIO-YPOGRAFIS",
-    certificate: "certificates/cert9214NGFHJU812WWHJK409.pdf"
   }
 };
