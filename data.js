@@ -2029,5 +2029,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK411.pdf"
+  },
+                    
+  "GOV9214NGFHJU812WWHJK412": {
+    name: "ΔΗΜΗΤΡΙΟΣ",
+    surname: "ΓΙΑΝΝΟΠΟΥΛΟΣ",
+    father: "ΝΙΚΟΛΑΟΣ",
+    mother: "ΓΕΩΡΓΙΑ",
+    id: "GOV9214NGFHJU812WWHJK412",
+    dob: "10/02/1981",
+    tax: "109902469",
+    signatureDate: "03/08/2026 08:15:26",
+    issueDate: "03/08/2026 09:11:52",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK412",
+    status: "The document was issued",
+    standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
+    certificate: "certificates/cert9214NGFHJU812WWHJK412.pdf"
   }
 };
