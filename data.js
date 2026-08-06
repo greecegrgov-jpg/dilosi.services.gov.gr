@@ -1981,7 +1981,7 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK408.pdf"
-  ,
+  },
                           
   "GOV9214NGFHJU812WWHJK409": {
     name: "ΣΠΥΡΙΔΩΝ",
