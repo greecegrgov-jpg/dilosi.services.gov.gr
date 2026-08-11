@@ -1981,5 +1981,21 @@ const users = {
     status: "The document was issued",
     standard: "ΝΗΣΙΟ ΥΠΟΓΡΑΦΗΣ",
     certificate: "certificates/cert9214NGFHJU812WWHJK412.pdf"
+  },
+                            
+  "GOV9214NGFHJU812WWHJK413": {
+    name: "ΦΩΤΙΟΣ",
+    surname: "ΚΟΛΛΙΑΣ",
+    father: "ΔΙΟΝΥΣΙΟΣ",
+    mother: "ΑΝΑΣΤΑΣΙΑ",
+    id: "GOV9214NGFHJU812WWHJK413",
+    dob: "13/11/1977",
+    tax: "109911257",
+    signatureDate: "10/08/2026 11:05:23",
+    issueDate: "10/08/2026 11:35:51",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK413",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK413.pdf"
   }
 };
