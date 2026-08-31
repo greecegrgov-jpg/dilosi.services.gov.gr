@@ -2061,5 +2061,37 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK418.pdf"
+  },
+                              
+  "GOV9214NGFHJU812WWHJK419": {
+    name: "ΑΝΑΣΤΑΣΙΟΣ",
+    surname: "ΧΑΤΖΑΚΟΣ",
+    father: "ΓΕΩΡΓΙΟΣ",
+    mother: "ΦΑΝΗ",
+    id: "GOV9214NGFHJU812WWHJK419",
+    dob: "07/08/1975",
+    tax: "079342058",
+    signatureDate: "26/08/2026 14:11:09",
+    issueDate: "26/08/2026 14:55:35",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK419",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK419.pdf"
+  },
+                              
+  "GOV9214NGFHJU812WWHJK420": {
+    name: "ΑΝΑΣΤΑΣΙΟΣ",
+    surname: "ΧΑΤΖΑΚΟΣ",
+    father: "ΓΕΩΡΓΙΟΣ",
+    mother: "ΦΑΝΗ",
+    id: "GOV9214NGFHJU812WWHJK420",
+    dob: "07/08/1975",
+    tax: "079342058",
+    signatureDate: "27/08/2026 11:15:03",
+    issueDate: "27/08/2026 11:48:44",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK420",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK420.pdf"
   }
 };
