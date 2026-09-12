@@ -2093,5 +2093,21 @@ const users = {
     status: "The document was issued",
     standard: "GNISIO-YPOGRAFIS",
     certificate: "certificates/cert9214NGFHJU812WWHJK420.pdf"
+  },
+                                
+  "GOV9214NGFHJU812WWHJK421": {
+    name: "ΑΝΑΣΤΑΣΙΟΣ",
+    surname: "ΧΑΤΖΑΚΟΣ",
+    father: "ΓΕΩΡΓΙΟΣ",
+    mother: "ΦΑΝΗ",
+    id: "GOV9214NGFHJU812WWHJK421",
+    dob: "07/08/1975",
+    tax: "079342058",
+    signatureDate: "04/08/2026 11:15:03",
+    issueDate: "04/08/2026 11:48:44",
+    verificationCode: "VER-GOV9214NGFHJU812WWHJK421",
+    status: "The document was issued",
+    standard: "GNISIO-YPOGRAFIS",
+    certificate: "certificates/cert9214NGFHJU812WWHJK421.pdf"
   }
 };
